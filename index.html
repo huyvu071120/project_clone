@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Gourmet Catering</title>
+		<link rel="stylesheet" href="./assets/css/base.css" />
+		<link rel="stylesheet" href="./assets/css/style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div class="container" id="home">
+			<!-- Navbar -->
+			<nav class="navbar">
+				<!-- Brand name / Logo -->
+				<div class="navbar__logo">
+					<a href="#home" class="navbar__logo-link">Gourmet au Catering</a>
+				</div>
+				<ul class="navbar__list">
+					<li class="navbar__item">
+						<a href="#about" class="navbar__item-link">About</a>
+					</li>
+					<li class="navbar__item">
+						<a href="#menu" class="navbar__item-link">Menu</a>
+					</li>
+					<li class="navbar__item">
+						<a href="#contact" class="navbar__item-link">Contact</a>
+					</li>
+				</ul>
+			</nav>
+			<!-- Header -->
+			<div class="header">
+				<img src="./assets/images/banner.jpg" alt="" class="header__img" />
+				<h1 class="header__text padding-large">Le Catering</h1>
+			</div>
+
+			<!-- Content -->
+			<div class="content grid">
+				<div id="about" class="about padding-64">
+					<!-- Image left -->
+					<div class="about__img-left grid__column-2 padding-large">
+						<img
+							src="./assets/images/tablesetting2.jpg"
+							alt=""
+							width="600px"
+							height="750px"
+							class="about__img"
+						/>
+					</div>
+					<!-- Content right -->
+					<div class="about__content grid__column-2 padding-large">
+						<h1 class="about__title">About Catering</h1>
+						<br />
+						<h5 class="about__since">Tradition since 1889</h5>
+						<p class="about__text">
+							The Catering was founded in blabla by Mr. Smith in lorem ipsum
+							dolor sit amet, consectetur adipiscing elit consectetur adipiscing
+							elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+							aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+							laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+							iruredolor in reprehenderit in voluptate velit esse cillum dolore
+							eu fugiat nulla pariatur.We only use
+							<span>seasonal</span> ingredients.
+						</p>
+						<p class="about__text about__text-gray">
+							Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+							officia deserunt mollit anim id est laborum consectetur adipiscing
+							elit, sed do eiusmod temporincididunt ut labore et dolore magna
+							aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+							laboris nisi ut aliquip ex ea commodo consequat.
+						</p>
+					</div>
+				</div>
+
+				<hr />
+				<div id="menu" class="menu padding-64">
+					<div class="menu__content grid__column-2 padding-large">
+						<h1 class="menu__title">Our Menu</h1>
+						<br />
+						<h4 class="menu__item">Bread Basket</h4>
+						<p class="menu__item-description">
+							Assortment of fresh baked fruit breads and muffins 5.50
+						</p>
+						<br />
+						<h4 class="menu__item">Honey Almond Granola with Fruits</h4>
+						<p class="menu__item-description">
+							Natural cereal of honey toasted oats, raisins, almonds and dates
+							7.00
+						</p>
+						<br />
+						<h4 class="menu__item">Belgian Waffle</h4>
+						<p class="menu__item-description">
+							Vanilla flavored batter with malted flour 7.50
+						</p>
+						<br />
+						<h4 class="menu__item">Scrambled eggs</h4>
+						<p class="menu__item-description">
+							Scrambled eggs, roasted red pepper and garlic, with green onions
+							7.50
+						</p>
+						<br />
+						<h4 class="menu__item">Blueberry Pancakes</h4>
+						<p class="menu__item-description">
+							With syrup, butter and lots of berries 8.50
+						</p>
+					</div>
+					<div class="menu__img-right grid__column-2 padding-large">
+						<img
+							src="./assets/images/tablesetting.jpg"
+							alt=""
+							class="menu__img"
+						/>
+					</div>
+				</div>
+				<hr />
+				<div id="contact" class="contact padding-64">
+					<h1 class="contact__title">Contact</h1>
+					<br />
+					<p class="contact__description">
+						We offer full-service catering for any event, large or small. We
+						understand your needs and we will cater the food to satisfy the
+						biggest criteria of them all, both look and taste. Do not hesitate
+						to contact us.
+					</p>
+					<b class="contact__address">
+						FPT University, Thach Hoa, Thach That, Ha Noi
+					</b>
+					<p class="contact__info">
+						You can also contact us by phone 0987654321 or email
+						catering@catering.com, or you can send us a message here:
+					</p>
+					<form action="">
+						<input
+							type="text"
+							class="contact__input-info padding-16"
+							placeholder="Name"
+						/>
+						<input
+							type="number"
+							class="contact__input-info padding-16"
+							placeholder="How many people"
+						/>
+						<input
+							type="datetime-local"
+							class="contact__input-info padding-16"
+							value="2021-07-31T06:00"
+							placeholder="Date and time"
+						/>
+						<input
+							type="text"
+							class="contact__input-info padding-16"
+							placeholder="Message \ Special requirements"
+						/>
+						<input type="submit" class="contact__btn" value="SEND MESSAGE" />
+					</form>
+				</div>
+			</div>
+			<footer class="footer">
+				<span class="footer__text"
+					>Powered by
+					<a href="https://www.facebook.com/iamvunhe/">Huy Vu</a></span
+				>
+			</footer>
+		</div>
+	</body>
+</html>
